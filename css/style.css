@@ -405,7 +405,7 @@
     display: flex;
   }
   
-  /* THREE COLUMN */
+  /* GRIDS */
   .grid-col {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -429,6 +429,17 @@
     /* top: 0; */
     bottom: 0;
     margin: auto;
+  }
+
+  /* FLEX BOX */
+  .flex-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flex-footer a:hover {
+    color: white;
+    transition: 0.3s;
   }
   
   /* BUTTON */
@@ -463,8 +474,8 @@
   
   .btn-white:hover {
     /* border: 1.5px solid var(--grey); */
-    background-color: var(--grey);
-    /* color: white; */
+    background-color: var(--emphasis);
+    color: white;
     transition: 0.3s;
   }
   

@@ -133,6 +133,18 @@
     .width-100 {
         width: 100%;
     }
+
+    .right-space {
+        padding-right: 0;
+    }
+
+    .flex-footer {
+        flex-direction: column;
+    }
+
+    .footer-links {
+        padding-top: var(--small-space);
+    }
 }
 
 @media (max-width: 570px) {

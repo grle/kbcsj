@@ -140,13 +140,7 @@
   .all-caps {
     text-transform: uppercase;
   }
-  
-  .dunamis {
-    font-weight: 800;
-    /* color: var(--emphasis); */
-    color: var(--bg);
-  }
-  
+
   .breadcrumb:hover {
     color: var(--emphasis);
     transition: 0.3s;
@@ -185,6 +179,10 @@
   }
   
   .left-space {
+    padding-left: var(--small-space);
+  }
+
+  .left-space-perm {
     padding-left: var(--small-space);
   }
   
@@ -345,32 +343,6 @@
     height: 20rem;
   }
   
-  .pic-china {
-    background-image: url("../img/mission/nuno-alberto-china-unsplash.jpg");
-  }
-  
-  .pic-s-korea {
-    background-image: url("../img/mission/sava-bobov-s-korea-unsplash.jpg");
-  }
-  
-  .pic-philippines {
-    background-image: url("../img/mission/gino-philippines-unsplash.jpg");
-  }
-  
-  .pic-contact {
-    background-image: url("../img/main/nadine-redlich-unsplash.png");
-    /* why does this need it? */
-    margin-bottom: -2px;
-  }
-  
-  .pic-about {
-    background-image: url("../img/main/timothy-eberly-unsplash.jpg");
-  }
-  
-  .pic-contact2 {
-    background-image: url("../img/main/alex-woods-unsplash.jpg");
-  }
-  
   /* HEADER */
   .header {
     padding: 15rem 0rem;
@@ -429,6 +401,7 @@
   }
   
   .pic-col-text {
+    display: flex;
   }
   
   /* THREE COLUMN */

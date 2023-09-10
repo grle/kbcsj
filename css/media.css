@@ -142,9 +142,9 @@
         padding: var(--small-space);
     }
 
-    .white-hr {
+    /* .white-hr {
         margin: 10px 0px;
-    }
+    } */
 
     .grid-col {
         grid-template-columns: 1fr;

@@ -36,7 +36,7 @@
   }
   
   h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   
   h3 {
@@ -374,7 +374,7 @@
   }
     
   .header-sub {
-    padding: var(--space);
+    padding: var(--space) 0rem;
   }
   
   .header-pg {
@@ -433,33 +433,38 @@
   
   /* BUTTON */
   .btn {
+    border-radius: 35px;
     display: inline-block;
     cursor: pointer;
-    padding: 15px;
-    margin: 15px 0px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 20px 0px;
     text-align: center;
-    width: 150px;
+    width: 200px;
   }
   
-  .btn-dark:hover {
-    background-color: var(--dark);
+  .btn-green {
+    border: 3px solid var(--green);
+    background-color: var(--green);
     color: white;
+  }
+
+  .btn-green:hover {
+    background-color: white;
+    color: var(--green);
     transition: 0.3s;
   }
   
-  .btn-dark {
-    border: 1px solid var(--text-color);
-  }
-  
   .btn-white {
-    border: 1.5px solid white;
+    border: 3px solid white;
     background-color: white;
   }
   
   .btn-white:hover {
-    border: 1.5px solid var(--emphasis);
-    background-color: var(--emphasis);
-    color: white;
+    /* border: 1.5px solid var(--grey); */
+    background-color: var(--grey);
+    /* color: white; */
     transition: 0.3s;
   }
   

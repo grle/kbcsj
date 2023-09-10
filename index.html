@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Korean Baptist Church of San Jose</title>
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.png">
+
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- ICONS -->
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav id="nav-bar" class="white-bg padding nav-shadow">
+        <div class="logo">
+            <a href="./">
+                <img class="logo-img" src="img/icon.png" alt="Korean Baptist Church of San Jose large icon">
+                <img class="logo-mobile" src="img/icon-mobile.png" alt="Korean Baptist Church of San Jose small icon">
+            </a>
+        </div>
+        <div class="toggle">
+            <div class="hamburger" id="hamburger-1" onclick="toggleMenu()">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </div>
+        <div class="mobile-menu">
+            <div id="backdrop" onclick="toggleMenu()"></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="./">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <div class="header pic-bg nav-spacing" alt="Background image of cross with sunset, taken by Hugo Fergusson on Unsplash">
+        <div class="white-text">
+            <h3 class="shadow-text padding">산호세 한인침례교회에 오신 여러분들을 주님의 이름으로 환영합니다</h3>
+            <hr class="shadow-box white-hr">
+            <h1 class="shadow-text padding">WELCOME TO</h1>
+            <h1 class="shadow-text padding">KOREAN BAPTIST CHURCH OF SAN JOSE</h1>
+        </div>
+    </div>
+
+    <div class="dark-bg ">
+        <div class="header-sub width center-text">
+            <h2 class="pad-heading">뿌리깊은 교회 <> 열매맺는 제자</h2>
+        </div>
+    </div>
+
+    <!-- SERVICES -->
+    <div class="width spacing">
+        <h2 class="pad-heading center-text small-spacing-bottom">안내</h2>
+        <div class="grid-col">
+            <div class="grid-unit color-bg">
+                <div class="center-text">
+                    <h2 class="spacing-top small-spacing-bottom">예배</h2>
+                    <p>SUN 10:00-11:00 AM</p>
+                </div>
+            </div>
+            <div class="grid-unit color-bg">
+                <div class="center-text">
+                    <h2 class="spacing-top small-spacing-bottom">성경공부</h2>
+                    <p>SUN 11:30-12:30PM</p>
+                    <p>WED 7:30-8:30 PM</p>
+                </div>
+            </div>
+            <div class="grid-unit color-bg">
+                <div class="center-text">
+                    <h2 class="spacing-top small-spacing-bottom">기도회</h2>
+                    <p>TUES-SAT 6:00AM</p>
+                </div>
+            </div>
+            <div class="grid-unit color-bg">
+                <div class="center-text">
+                    <h2 class="spacing-top small-spacing-bottom">성경공부</h2>
+                    <p>SUN 11:30-12:30PM</p>
+                    <p>WED 7:30-8:30 PM</p>
+                </div>
+            </div>
+            <div class="grid-unit color-bg">
+                <div class="center-text">
+                    <h2 class="spacing-top small-spacing-bottom">목장</h2>
+                    <p>Weekday time</p>
+                </div>
+            </div>
+            <div class="grid-unit color-bg">
+                <div class="center-text">
+                    <h2 class="spacing-top small-spacing-bottom">선교</h2>
+                    <p>Mexico (2023)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="mod-hr">
+
+    <!-- CONTACT -->
+    <div class="pic-col width small-spacing-top spacing-bottom  pic-col-img-rev">
+        <div class="pic-col-text right-space small-spacing-top">
+            <!--  small-spacing-top -->
+            <h2 class="pad-heading">OFFICE HOURS</h2>
+            <p>TUES-FRI 9:00-5:00PM</p>
+            <p>SAT 9:00-1:00PM</p>
+            <h2 class="pad-heading small-spacing-top">LOCATION</h2>
+            <p>1056 Pinewood Drive</p>
+            <p class="small-spacing-bottom">San Jose, CA 95129</p>
+        </div>
+        <div class="pic-col-img left-space width-100">
+            <img class="shadow-box" src="img/main/church-building.png" alt="picture of church building">
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="dark-bg padding">
+        <div>2023 © Korean Baptist Church of San Jose</div>
+        <div>Website by <a target="_blank" href="https://graceavocado.com/">
+                graceavocado</a></div>
+    </footer>
+
+    <!-- javascript -->
+    <script src="js/script.js" charset="utf-8"></script>
+</body>
+
+</html>

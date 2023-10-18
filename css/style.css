@@ -491,8 +491,8 @@
     transition: 0.3s;
   }
   
-  /* CONTACT FORM */
-  .contact-form {
+  /* CONTACT */
+  /* .contact-form {
     display: flex;
     flex-direction: column;
   }
@@ -505,6 +505,10 @@
   .dark-contact {
     color: var(--text-color);
     border: 1px solid var(--text-color);
+  } */
+  .g-maps iframe {
+    width: 552px;
+    height: 602px; 
   }
   
   textarea, input {
